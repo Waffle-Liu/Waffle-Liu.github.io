@@ -4,16 +4,12 @@ layout: default
 
 <!-- about.html -->
       <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-          </h1>
-          <p class="desc">{{ page.subtitle }}</p>
-        </header>
+        <!-- s -->
 
         <article>
           {% if page.profile -%}
           <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+            <!-- <br> -->
             {%- if page.profile.image %}
               {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
@@ -32,24 +28,39 @@ layout: default
             <div class="address">
               {{ page.profile.address }}
             </div>
+            <div class="social">
+              <div class="contact-icons">
+              {% include social.html %}
+              </div>
+            </div>
             {%- endif %}
+            <br>
+            
           </div>
           {%- endif %}
 
           <div class="clearfix">
+            <h1 class="post-title" style="font-size:1.6rem">
+              {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.full_name }}{%- endif %}
+            </h1>
+             <p class="desc">Contact: {{ page.subtitle }}</p>
             {{ content }}
           </div>
 
-          {% if page.news -%}
-          <!-- News -->
+          <!-- {% if page.news -%}
+          
           {%- include news.html %}
-          {%- endif %}
+          {%- endif %} -->
           {% if page.selected_papers -%}
-            <!-- Selected papers -->
+            
             {%- include selected_papers.html %}
           {%- endif %}
-          {%- if page.social %}
-          <!-- Social -->
+          <br>
+          {% if page.teaching -%}
+          {%- include teaching.html %}
+          {%- endif %}
+
+          <!-- {%- if page.social %}
           <div class="social">
             <div class="contact-icons">
             {% include social.html %}
@@ -60,7 +71,7 @@ layout: default
             </div>
             
           </div>
-          {%- endif %}
+          {%- endif %} -->
         </article>
 
 </div>

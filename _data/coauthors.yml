@@ -1,18 +1,18 @@
-"Huang":
-  - firstname: ["Hengguan"]
-    url: https://scholar.google.com/citations?user=GQm1eZEAAAAJ&hl=zh-CN&oi=sra
+# "Huang":
+#   - firstname: ["Hengguan"]
+#     url: https://scholar.google.com/citations?user=GQm1eZEAAAAJ&hl=zh-CN&oi=sra
 
-"Wang":
-  - firstname: ["Ye"]
-    url: https://www.comp.nus.edu.sg/cs/people/wangye/
+# "Wang":
+#   - firstname: ["Ye"]
+#     url: https://www.comp.nus.edu.sg/cs/people/wangye/
 
-"Wang":
-  - firstname: ["Hao"]
-    url: http://www.wanghao.in/index.html
+# "Wang":
+#   - firstname: ["Hao"]
+#     url: http://www.wanghao.in/index.html
 
-"Gu":
-  - firstname: ["Xiangming"]
-    url: https://guxm2021.github.io/
+# "Gu":
+#   - firstname: ["Xiangming"]
+#     url: https://guxm2021.github.io/
 
 # "Adams":
 #   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]

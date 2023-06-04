@@ -47,14 +47,19 @@ layout: default
             {{ content }}
           </div>
 
-          <!-- {% if page.news -%}
-          
-          {%- include news.html %}
-          {%- endif %} -->
+          {% if page.news -%}
+            {%- include news.html %}
+          {%- endif %}
+
           {% if page.selected_papers -%}
-            
             {%- include selected_papers.html %}
           {%- endif %}
+
+          <br>
+          {% if page.reviewer -%}
+          {%- include reviewer.html %}
+          {%- endif %}
+
           <br>
           {% if page.teaching -%}
           {%- include teaching.html %}

@@ -96,7 +96,7 @@
               {% endfor -%} -->
 
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
-              {%- for p in sorted_pages -%}
+              <!-- {%- for p in sorted_pages -%}
               {%- if p.nav and p.autogen == nil -%}
               {%- if p.title == 'publications' -%}
               <li class="nav-item {% if page.title == p.title %}active{% endif %}">
@@ -108,7 +108,7 @@
               </li>
               {%- endif -%}
               {%- endif -%}
-              {% endfor -%}
+              {% endfor -%} -->
 
               {%- if site.enable_darkmode %}
 

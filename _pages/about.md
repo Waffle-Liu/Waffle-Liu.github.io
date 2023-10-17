@@ -22,10 +22,13 @@ teaching: true
 reviewer: true
 ---
 
-Hi! I am a third-year Ph.D. student in the [Sound and Music Computing Lab](https://smcnus.comp.nus.edu.sg/) at [National University of Singapore](https://www.nus.edu.sg/). I am fortunate to be advised by Prof. [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/). My research interests lie at the intersection of machine learning and natural language processing. I am also broadly interested in machine learning for speech and music information retrieval. 
+<!-- Hi! I am a third-year Ph.D. student in the [Sound and Music Computing Lab](https://smcnus.comp.nus.edu.sg/) at [National University of Singapore](https://www.nus.edu.sg/). I am fortunate to be advised by Prof. [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/). My research interests lie at the intersection of machine learning and natural language processing. I am also broadly interested in machine learning for speech and music topics. 
 
-Previously, I obtained my Bachelor's degree in Computer Science at [Zhejiang University](https://www.zju.edu.cn/english/) where I worked with Prof. [Kejun Zhang](https://person.zju.edu.cn/en/zhangkejun). I also spent a great semester in my senior year at [UC Berkeley](https://www.berkeley.edu/) and visited [CNMAT](https://cnmat.berkeley.edu/) where I worked with Prof. [Carmine Emanuele Cella](http://www.carminecella.com/). 
+Previously, I obtained my Bachelor's degree in Computer Science at [Zhejiang University](https://www.zju.edu.cn/english/) where I worked with Prof. [Kejun Zhang](https://person.zju.edu.cn/en/zhangkejun). I also spent a great semester in my senior year at [UC Berkeley](https://www.berkeley.edu/) and visited [CNMAT](https://cnmat.berkeley.edu/) where I worked with Prof. [Carmine Emanuele Cella](http://www.carminecella.com/).  -->
+Hi! I am a third-year Ph.D. student in the [Sound and Music Computing Lab](https://smcnus.comp.nus.edu.sg/) at [National University of Singapore](https://www.nus.edu.sg/). I am fortunate to be advised by Prof. [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/). Previously, I obtained my Bachelor's degree in Computer Science at [Zhejiang University](https://www.zju.edu.cn/english/). I also spent a great semester in my senior year at [UC Berkeley](https://www.berkeley.edu/) and visited [CNMAT](https://cnmat.berkeley.edu/). 
 
+<!-- My research interests lie at the intersection of machine learning and natural language processing. I am also broadly interested in machine learning for speech and music topics.  -->
+I am broadly interested in machine learning for NLP, Speech, and Music topics. Currently, I focus more on improving large language (foundation) models by: (1) designing data-efficient approaches; (2) understanding the robustness; (3) evaluating large language model agents. 
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

@@ -6,45 +6,34 @@
 #   - firstname: ["Ye"]
 #     url: https://www.comp.nus.edu.sg/cs/people/wangye/
 
-# "Wang":
-#   - firstname: ["Hao"]
-#     url: http://www.wanghao.in/index.html
-
 # "Gu":
 #   - firstname: ["Xiangming"]
 #     url: https://guxm2021.github.io/
 
-# "Adams":
-#   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-#     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+# "Xie":
+#   - firstname: ["Yuxi"]
+#     url: https://yuxixie.github.io/
 
-# "Podolsky":
-#   - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-#     url: https://en.wikipedia.org/wiki/Boris_Podolsky
+# "Miao":
+#   - firstname: ["Yisong"]
+#     url: https://yisong.me/
 
-# "Rosen":
-#   - firstname: ["Nathan", "N."]
-#     url: https://en.wikipedia.org/wiki/Nathan_Rosen
+# "Wang":
+#   - firstname: ["Hao"]
+#     url: http://www.wanghao.in/index.html
 
-# "Bach": 
-#   - firstname: ["Johann Sebastian", "J. S."]
-#     url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+# "Shieh":
+#   - firstname: ["Michael"]
+#     url: https://michaelshieh.com
 
-#   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-#     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+# "Lei":
+#   - firstname: ["Wenqiang"]
+#     url: https://sites.google.com/view/wenqianghome/home
 
-# "Przibram":
-#   - firstname: ["Karl"]
-#     url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+# "Kan":
+#   - firstname: ["Min-Yen"]
+#     url: https://www.comp.nus.edu.sg/~kanmy/
 
-# "Schrödinger":
-#   - firstname: ["Erwin"]
-#     url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-# "Lorentz":
-#   - firstname: ["Hendrik Antoon"]
-#     url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-# "Planck":
-#   - firstname: ["Max"]
-#     url: https://en.wikipedia.org/wiki/Max_Planck
+# "Chen":
+#   - firstname: ["Nancy F."]
+#     url: https://sites.google.com/site/nancyfchen/home

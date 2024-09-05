@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2021-05-08 
+date: 2023-05-02 
 inline: true
 ---
 
-One paper got accepted to International Conference on Machine Learning 2021!
+Our paper "**Zero-Shot Automatic Pronunciation Assessment**" got accepted to [Interspeech 2023](https://interspeech2023.org/)! Thanks to all collaborators! 

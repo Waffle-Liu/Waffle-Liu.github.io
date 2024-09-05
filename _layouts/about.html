@@ -47,22 +47,32 @@ layout: default
             {{ content }}
           </div>
 
+          <br>
           {% if page.news -%}
             {%- include news.html %}
           {%- endif %}
-
+          
+          <!-- <br> -->
           {% if page.selected_papers -%}
             {%- include selected_papers.html %}
           {%- endif %}
 
+          <br>
           <br>
           {% if page.reviewer -%}
           {%- include reviewer.html %}
           {%- endif %}
 
           <br>
+          <br>
           {% if page.teaching -%}
           {%- include teaching.html %}
+          {%- endif %}
+
+          <br>
+          <br>
+          {% if page.misc -%}
+          {%- include misc.html %}
           {%- endif %}
 
           <!-- {%- if page.social %}

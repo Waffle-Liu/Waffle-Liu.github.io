@@ -19,6 +19,12 @@
           {%- else -%}
             <abbr class="badge">{{entry.abbr}}</abbr>
           {%- endif -%}
+          {%- if entry.award -%}
+          <span class="award badge">{{entry.award}}</span> 
+          {%- endif -%}
+          {%- if entry.award2 -%}
+          <span class="award badge">{{entry.award2}}</span>
+          {%- endif -%}
         {%- endif -%}
         </div>
 
@@ -70,6 +76,7 @@
               {%- endif -%}
             {%- endif -%}
           {%- endfor -%}
+          
           {%- assign more_authors = author_array_size | minus: author_array_limit -%}
           
           {%- assign more_authors_hide = more_authors | append: " more author" -%}
@@ -98,7 +105,7 @@
                     if (++cursorPosition == more_authors_text.length){
                       clearInterval(textAdder);
                     }
-                }, '{{site.more_authors_animation_delay}}');
+                }, 15);
                 "
             >{{more_authors_hide}}</span>
           {%- endif -%}
@@ -125,7 +132,20 @@
             {{ periodical | strip }}
           </div>
         {%- endif %}
-        
+          
+          {%- if entry.honor -%}
+          <span class="honor">
+            {{entry.honor}}
+          </span>
+          {%- endif -%}
+    
+          {%- if entry.honor2 -%}
+          <br>
+          <span class="honor">
+            {{entry.honor2}}
+          </span>
+          {%- endif -%}
+
           <!-- Links/Buttons -->
           <div class="links">
           {%- if entry.abstract %}

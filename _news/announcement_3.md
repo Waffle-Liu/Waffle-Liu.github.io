@@ -1,7 +1,9 @@
 ---
 layout: post
-date: 2023-05-02 
+# title: A long announcement with details
+date: 2022-11-07 
 inline: true
 ---
 
-One paper got accepted to Interspeech 2023!
+Our paper "**Extrapolative Continuous-time Bayesian Neural Network for Fast Training-free Test-time Adaptation**" got accepted to [NeurIPS 2022](https://neurips.cc/Conferences/2022)! Congrats to all co-authors!
+

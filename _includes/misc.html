@@ -1,10 +1,10 @@
           
           <div class="news">
-            <h2 style="font-size:1.6rem">Academic Services</h2>
+            <h2 style="font-size:1.6rem">MISC</h2>
             
             <div class="table-responsive">
-              {%- assign reviewer = site.reviewer | reverse -%}
-              {% for item in reviewer %} 
+              {%- assign misc = site.misc -%}
+              {% for item in misc %} 
                 <ul>
                   <li>{{ item.content }}</li>
                 </ul>
@@ -12,3 +12,5 @@
               </div>
            
           </div>
+
+         

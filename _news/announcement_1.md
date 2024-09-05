@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-05-22
+date: 2021-05-08 
 inline: true
 ---
 
-I passed my Ph.D. Qualifying Examination (PQE) and became a Ph.D. candidate!
+Our paper "**STRODE: Stochastic Boundary Ordinary Differential Equation**" got accepted to [ICML 2021](https://icml.cc/Conferences/2021)! Thanks to all collaborators!

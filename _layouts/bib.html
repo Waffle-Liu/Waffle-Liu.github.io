@@ -121,6 +121,7 @@
           {%- else -%}
             {%- capture entrytype -%}{%- endcapture -%}
           {%- endif -%}
+
           {%- if entry.month -%}
             {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
           {%- endif -%}
@@ -132,6 +133,10 @@
             {{ periodical | strip }}
           </div>
         {%- endif %}
+
+        {%- if entry.notes -%}
+        <em>{{entry.notes}} <em style="color: #0076df;"><b>{{entry.noteend}}</b></em></em>
+        {%- endif -%}
           
           {%- if entry.honor -%}
           <span class="honor">

@@ -1,6 +1,17 @@
 ---
 ---
 
+@inproceedings{wang2025fostering,
+  abbr={Arxiv},
+  title={Fostering Video Reasoning via Next-Event Prediction},
+  author={Wang*, Haonan and Liu*, Hongfu and Liu, Xiangyan and Du, Chao and Kenji, Kawaguchi and Wang, Ye and Pang, Tianyu},
+  booktitle={ICML Building Physically Plausible World Models Workshop},
+  year={2025},
+  pdf={https://arxiv.org/abs/2505.22457},
+  code={https://github.com/sail-sg/Video-Next-Event-Prediction},
+  selected={true},
+  abstract={Next-token prediction serves as the foundational learning task enabling reasoning in LLMs. But what should the learning task be when aiming to equip MLLMs with temporal reasoning capabilities over video inputs? Existing tasks such as video question answering often rely on annotations from humans or much stronger MLLMs, while video captioning tends to entangle temporal reasoning with spatial information. To address this gap, we propose next-event prediction (NEP), a learning task that harnesses future video segments as a rich, self-supervised signal to foster temporal reasoning. We segment each video into past and future frames: the MLLM takes the past frames as input and predicts a summary of events derived from the future frames, thereby encouraging the model to reason temporally in order to complete the task. To support this task, we curate V1-33K, a dataset comprising 33,000 automatically extracted video segments spanning diverse real-world scenarios. We further explore a range of video instruction-tuning strategies to study their effects on temporal reasoning. To evaluate progress, we introduce FutureBench to assess coherence in predicting unseen future events. Experiments validate that NEP offers a scalable and effective training paradigm for fostering temporal reasoning in MLLMs.}
+}
 
 @inproceedings{liu2024calibration,
   abbr={ICLR},
@@ -87,7 +98,7 @@
   booktitle={Interspeech,},
   year={2023},
   pdf={https://arxiv.org/abs/2305.19563},
-  selected={true},
+  selected={false},
   abstract={Automatic Pronunciation Assessment (APA) is vital for computer-assisted language learning. Prior methods rely on annotated speech-text data to train Automatic Speech Recognition (ASR) models or speech-score data to train regression models. In this work, we propose a novel zero-shot APA method based on the pre-trained acoustic model, HuBERT. Our method involves encoding speech input and corrupting them via a masking module. We then employ the Transformer encoder and apply k-means clustering to obtain token sequences. Finally, a scoring module is designed to measure the number of wrongly recovered tokens. Experimental results on speechocean762 demonstrate that the proposed method achieves comparable performance to supervised regression baselines and outperforms non-regression baselines in terms of Pearson Correlation Coefficient (PCC). Additionally, we analyze how masking strategies affect the performance of APA.}
 }
 

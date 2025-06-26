@@ -6,4 +6,4 @@ inline: true
 
 Conference Reviewers: 
 
-ACL Rolling Review (2023&2024), NeurIPS (2024), ICLR (2024&2025), IJCAI (2024)
+ACL Rolling Review (2023&2024&2025), NeurIPS (2024&2025), ICLR (2024&2025), IJCAI (2024)

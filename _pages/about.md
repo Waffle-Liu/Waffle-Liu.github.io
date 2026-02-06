@@ -26,17 +26,21 @@ misc: true
 <!-- Hi! I am a third-year Ph.D. student in the [Sound and Music Computing Lab](https://smcnus.comp.nus.edu.sg/) at [National University of Singapore](https://www.nus.edu.sg/). I am fortunate to be advised by Prof. [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/). My research interests lie at the intersection of machine learning and natural language processing. I am also broadly interested in machine learning for speech and music topics. 
 
 Previously, I obtained my Bachelor's degree in Computer Science at [Zhejiang University](https://www.zju.edu.cn/english/) where I worked with Prof. [Kejun Zhang](https://person.zju.edu.cn/en/zhangkejun). I also spent a great semester in my senior year at [UC Berkeley](https://www.berkeley.edu/) and visited [CNMAT](https://cnmat.berkeley.edu/) where I worked with Prof. [Carmine Emanuele Cella](http://www.carminecella.com/).  -->
-Hi! I am a final-year Ph.D. student in [SMC Lab](https://smcnus.comp.nus.edu.sg/) at [National University of Singapore](https://www.nus.edu.sg/). I am fortunate to be advised by Prof. [Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/). Previously, I obtained my Bachelor's degree in Computer Science at [Zhejiang University](https://www.zju.edu.cn/english/). 
+Hi! I am a final-year Ph.D. candidate at [National University of Singapore](https://www.nus.edu.sg/), advised by [Prof. Ye Wang](https://www.comp.nus.edu.sg/cs/people/wangye/). Previously, I obtained my Bachelor's degree in Computer Science at [Zhejiang University](https://www.zju.edu.cn/english/). I was a research intern at [Amazon AGI](https://labs.amazon.science/) and [Sea AI Lab](https://sail.sea.com/).
 <!-- I also spent a great semester in my senior year at [UC Berkeley](https://www.berkeley.edu/) and visited [CNMAT](https://cnmat.berkeley.edu/).  -->
 
 <!-- My research interests lie at the intersection of machine learning and natural language processing. I am also broadly interested in machine learning for speech and music topics.  -->
 <!-- I am broadly interested in machine learning for NLP, Speech, Multimodality topics. Currently, I focus more on improving large language/multimodal foundation models from two directions: (1) **Audio-Language**: designing data-efficient approaches for better language and speech understanding; (2) **Trustworthy**: investigating the risks and enhancing the robustness and safety. -->
 
-I am broadly interested in machine learning for NLP and Multimodality topics. Currently, I focus more on improving LLMs and MLLMs from two directions: 
+<!-- I am broadly interested in machine learning for NLP and Multimodality topics. Currently, I focus more on improving LLMs and MLLMs from two directions: 
 
 (1)**Multimodal Reasoning**: empowering LLMs with better language, speech, image, and video understanding and reasoning by designing data-efficient approaches; 
 
-(2)**Trustworthy**: building trustworthy foundation models by investigating risks and enhancing the robustness and safety.
+(2)**Trustworthy**: building trustworthy foundation models by investigating risks and enhancing the robustness and safety. -->
+
+My research interests include LLMs **pretraining** and **reasoning**, aiming for developing the next generation of pretraining and reasoning paradigm, with the focus on architecture design, training dynamics, and training objective. 
+
+My next vision is: (1) How to design more efficient mechanism for LLMs continual learning (2) How to decompose LLM native memory and reasoning with adaptive compute (3) How to derive the next effective scaling dimension for LLMs.
 
 **<font color=red>I'm on the job market and looking for a Research Scientist/Engineer position. Feel free to reach out if you have any openings!</font>**
 

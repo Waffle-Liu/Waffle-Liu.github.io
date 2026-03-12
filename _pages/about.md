@@ -38,9 +38,11 @@ Hi! I am a final-year Ph.D. candidate at [National University of Singapore](http
 
 (2)**Trustworthy**: building trustworthy foundation models by investigating risks and enhancing the robustness and safety. -->
 
-My research interests include LLMs **pretraining** and **reasoning**, aiming for developing the next generation of pretraining and reasoning paradigm, with the focus on architecture design, training dynamics, and training objective. 
+<!-- My research interests include LLMs **pretraining** and **reasoning**, aiming for developing the next generation of pretraining and reasoning paradigm, with the focus on architecture design, training dynamics, and training objective. 
 
-My next vision is: (1) How to design more efficient mechanism for LLMs continual learning (2) How to decompose LLM native memory and reasoning with adaptive compute (3) How to derive the next effective scaling dimension for LLMs.
+My next vision is: (1) How to design more efficient mechanism for LLMs continual learning (2) How to decompose LLM native memory and reasoning with adaptive compute (3) How to derive the next effective scaling dimension for LLMs. -->
+
+My research focuses on LLMs pretraining and reasoning, with the objective of developing multimodal LLMs that are more robust, responsible, and capable of advanced agentic functionality. In addition, my prior work encompasses experiences on video and audio modality, as well as research on LLM safety.
 
 **<font color=red>I'm on the job market and looking for a Research Scientist/Engineer position. Feel free to reach out if you have any openings!</font>**
 
